@@ -135,7 +135,7 @@ function Player.update(map, shipX, shipY, pScores, dt)
                 map.objects[Player.x][Player.y] = 0
             elseif map.objects[Player.x][Player.y] == 2 then
                 Player.sfxFo:play()
-                pScores.food = pScores.food + 100
+                pScores.food = pScores.food + 250
                 map.objects[Player.x][Player.y] = 0
             end
         end
